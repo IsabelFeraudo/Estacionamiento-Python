@@ -1,0 +1,11 @@
+Instruccione para correr TP en windows powershell
+- Entras en Linux. Te vas a /home/isa/desktop/sim/
+- Haces click derecho "abrir en terminal"
+- python -m venv env
+- Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+- .\env\Scripts\Activate.ps1
+- Te metes a la carpeta del repo con cd
+- pip install -r requirements.txt
+- Te fijas en que carpeta esta el archivo manage.py y te paras ahi
+- python manage.py runserver
+- Te metes a localhost:8000
